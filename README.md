@@ -1,11 +1,11 @@
-# 🔐 Simple Python Encrypter
+#  Simple Python Encrypter
 
 A lightweight Python tool for encrypting and decrypting text using
 character shifting.
 
 ------------------------------------------------------------------------
 
-## 📌 Description
+##  Description
 
 This project implements a basic encryption system similar to a Caesar
 cipher.\
@@ -14,7 +14,7 @@ character's ASCII value.
 
 ------------------------------------------------------------------------
 
-## ⚙️ Features
+##  Features
 
 -   Encrypt any string\
 -   Decrypt back to original text\
@@ -23,14 +23,14 @@ character's ASCII value.
 
 ------------------------------------------------------------------------
 
-## 📁 Files
+##  Files
 
 encrypter.py \# Contains encryption class\
 main.py \# Example usage
 
 ------------------------------------------------------------------------
 
-## 🚀 Usage
+##  Usage
 
 ### Import the class
 
@@ -58,7 +58,7 @@ THIS FILE USES ENCRYPTION FILE
 
 ------------------------------------------------------------------------
 
-## 🧠 How It Works
+##  How It Works
 
 -   Each character is converted to ASCII using ord()\
 -   A shift value is added (encryption) or subtracted (decryption)\
@@ -66,7 +66,7 @@ THIS FILE USES ENCRYPTION FILE
 
 ------------------------------------------------------------------------
 
-## ⚠️ Warning
+##  Warning
 
 This is a basic encryption method and NOT secure for real-world
 sensitive data.\
@@ -74,12 +74,12 @@ Use it for learning or simple obfuscation only.
 
 ------------------------------------------------------------------------
 
-## ✍️ Author
+##  Author
 
 Dev-KYM Derick
 
 ------------------------------------------------------------------------
 
-## 📜 License
+##  License
 
 Free to use and modify.
