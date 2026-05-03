@@ -1,4 +1,4 @@
-#  Simple Python Encrypter
+#  Simple Python Encrypter V1.0.0
 
 A lightweight Python tool for encrypting and decrypting text using
 character shifting.
@@ -8,7 +8,7 @@ character shifting.
 ##  Description
 
 This project implements a basic encryption system similar to a Caesar
-cipher.\
+cipher.
 It transforms readable text into an unreadable format by shifting each
 character's ASCII value.
 
@@ -16,9 +16,9 @@ character's ASCII value.
 
 ##  Features
 
--   Encrypt any string\
--   Decrypt back to original text\
--   Simple and easy-to-understand code\
+-   Encrypt any string
+-   Decrypt back to original text
+-   Simple and easy-to-understand code
 -   No external libraries required
 
 ------------------------------------------------------------------------
@@ -26,8 +26,8 @@ character's ASCII value.
 ##  Files
 
 ```python
-encrypter.py \# Contains encryption class\
-main.py \# Example usage
+encrypter.py # Contains encryption class
+main.py # Example usage
 ```
 
 ------------------------------------------------------------------------
@@ -45,7 +45,7 @@ from encrypter import encrypt as enc
 ### Encrypt text
 
 ```python
-encrypted = enc("THIS FILE USES ENCRYPTION FILE", 3).encrypt()\
+encrypted = enc("THIS FILE USES ENCRYPTION FILE", 3).encrypt()
 print(encrypted)
 ```
 
@@ -60,7 +60,7 @@ WKLV#ILOH#XVHV#HQFU`\SWLRQ`{=tex}#ILOH
 ### Decrypt text
 
 ```python
-decrypted = enc(encrypted, 3).decrypt()\
+decrypted = enc(encrypted, 3).decrypt()
 print(decrypted)
 ```
 
@@ -73,8 +73,8 @@ THIS FILE USES ENCRYPTION FILE
 
 ##  How It Works
 
--   Each character is converted to ASCII using ord()\
--   A shift value is added (encryption) or subtracted (decryption)\
+-   Each character is converted to ASCII using ord()
+-   A shift value is added (encryption) or subtracted (decryption)
 -   Converted back using chr()
 
 ------------------------------------------------------------------------
@@ -82,7 +82,7 @@ THIS FILE USES ENCRYPTION FILE
 ##  Warning
 
 This is a basic encryption method and NOT secure for real-world
-sensitive data.\
+sensitive data.
 Use it for learning or simple obfuscation only.
 
 ------------------------------------------------------------------------
