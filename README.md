@@ -25,8 +25,10 @@ character's ASCII value.
 
 ##  Files
 
+```python
 encrypter.py \# Contains encryption class\
 main.py \# Example usage
+```
 
 ------------------------------------------------------------------------
 
@@ -34,27 +36,38 @@ main.py \# Example usage
 
 ### Import the class
 
+```python
 from encrypter import encrypt as enc
+```
 
 ------------------------------------------------------------------------
 
 ### Encrypt text
 
+```python
 encrypted = enc("THIS FILE USES ENCRYPTION FILE", 3).encrypt()\
 print(encrypted)
+```
 
-Output:\
+Output:
+
+```txt
 WKLV#ILOH#XVHV#HQFU`\SWLRQ`{=tex}#ILOH
+```
 
 ------------------------------------------------------------------------
 
 ### Decrypt text
 
+```python
 decrypted = enc(encrypted, 3).decrypt()\
 print(decrypted)
+```
 
-Output:\
+Output:
+```txt
 THIS FILE USES ENCRYPTION FILE
+```
 
 ------------------------------------------------------------------------
 
